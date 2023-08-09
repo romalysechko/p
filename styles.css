@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+background-color: antiquewhite;
+color: #0f141e;
+font: normal 16px 'Roboto', sans-serif
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: rgb(29, 13, 13);
+}
+.avatar{
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,25);
+}
+
+@media (max-width:700px)
+{}
+.info {
+    color: #86988f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    display:flex;
+}
+{}
+.text{
+margin-left: 40px;
+}
+.social{
+    background-color: aqua;
+    padding: 15px;
+    border: 5px;
+    margin: 20px;
+
+}
+.container {
+    width: 70%;
+margin: auto;
+}
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background:#e5ffe7;
+}
+.bg-red{
+    background:#ffe5e5;
+}
+.bg-bley{
+    background: rgb(167, 176, 244);
+    text-align: center;
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+}
+.link{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid#ccc;
+
+}
+.gruop label{
+    display: block;
+    font-size: 14px;
+    color:#86898f;
+}
+.gruop input{
+    width: 50%;
+ box-sizing: border-box;
+ border: none;
+ background: transparent;
+ border-bottom: 1px solid #ccc;
+ padding: 15px 0 10px;
+ outline: none;
+ font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .gruop{
+    width: 50%;
+    margin-right: 20px;
+
+}
+.btn{
+    background: black;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn:hover {
+    opacity: 1;
+}
